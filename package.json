@@ -1,0 +1,25 @@
+{
+  "name": "strapi-provider-upload-aws-s3-no-public",
+  "version": "1.0.0",
+  "description": "strapi s3 provider with disabled public-read acl",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.457.0",
+    "lodash": "^4.17.11"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "author": "kobar septyanus"
+}
